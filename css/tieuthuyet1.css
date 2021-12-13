@@ -1,0 +1,732 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0;padding: 0;/* background-color: white; */}
+
+phanchu ul {
+    margin-left: 21px;
+    text-align: justify;
+    padding: 13px;
+}
+
+.text12 {
+    text-align: justify;
+    padding: 7px;
+}
+
+text13 {
+    padding-left: 25px;
+    font-size: 23px;
+}
+
+b {}
+
+.hinhtrai img {
+    width: 91%;
+    height: 50%;
+    padding: 14px;
+}
+
+cothebanthich h5 {
+    font-size: 22px;
+    width: 387px;
+    height: 43px;
+    background: gold;
+    color: white;
+    text-align: center;
+    padding: -1px;
+    padding-top: 21px;
+}
+
+cothebanthich {
+    width: 387px;
+    float: left;
+    background: #fff;
+    border: 2px solid gray;
+    position: relative;
+    /* margin-top: 35px; */
+}
+
+cothebanthich {}
+
+aside {
+    min-height: 1000px;
+    width: 37%;
+    float: right;
+    position: relative;
+    top: 27px;
+}
+
+.phangiua {
+    margin-bottom: 30px;
+    height: 473px;
+    border: 3px solid #E91E63;
+    /* margin: auto; */
+    position: relative;
+    top: 27px;
+    /* left: 379px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article {
+    min-height: 1000px;
+    width: 59%;
+    float: left;
+    /* margin-bottom: -5px; */
+    /* margin-top: 30px; */
+    /* height: 473px; */
+    /* border: 3px solid #E91E63; */
+    /* margin: auto; */
+    /* position: relative; */
+    /* top: 27px; */
+    /* left: 379px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ten {
+    position: absolute;
+    z-index: 2;
+    top: 52%;
+    left: 50%;
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    text-align: center;
+    /* padding-top: 52px; */
+    width: 700px;
+    height: 83px;
+    margin-left: -303px;
+    opacity: 0;
+    animation: divao 1s forwards;
+    animation-delay: 1s;
+}
+.container .nav {
+  color: white;
+  background-color: red;
+  font-size: 29px;
+  line-height: 41px;
+  text-align: center;
+  position: relative;
+  }
+.container .footer {
+   line-height: 26px;
+   position: relative;
+   display: flex;
+   clear: both;
+}
+.container .aside ul{
+	list-style: none;
+    left: -20px;
+    position: relative;
+}
+.container{
+	max-width: 1056px;
+	margin: auto;
+	
+}
+.container .header{
+	width: 100%;
+	height: 32%;
+	z-index: 1;
+	animation: zoolen 10s forwards;
+	background-image: url(../img/anhhinh.jpg);
+	background-size: 119% 100%;
+	padding-bottom: 30%;
+}
+  
+.container .header come img {
+    position: absolute;
+    z-index: 3;
+    left: 21%;
+    top: 22%;
+    font-size: 40px;
+    font-family: tahoma;
+    padding-top: 54px;
+    color: white;
+    text-align: center;
+    width: 112px;
+    height: 86px;
+    margin-top: -63px;
+    opacity: 0;
+    animation: divao 1s forwards;
+    animation-delay: 1s;
+    }
+
+.nav ul{
+	list-style: none;
+	width: 80%;
+	height: 43px;
+	display: flex;
+	justify-content: end;
+}
+.nav ul li a {	
+text-align: center;	
+float: left;	
+font-size: 26px;	
+color: white;	
+text-decoration: none;	
+padding: 0 15px;
+}
+.nav ul li a:hover{
+	background-color: #cd2317;
+    display: inline-block;
+    border: 1px solid gray;
+}
+.box {
+    position: absolute;
+    top: 128%;
+    left: 67%;
+    width: 184px;
+    transform: translate(-50px,-50px);
+}
+input[type="text"] {
+    position: absolute;
+    background: #fff;
+    width: 87%;
+    height: 34px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 21px 0 0 0px;
+    top: 10%;
+	left: 61%;}
+input[type="submit"] {
+    position: absolute;
+    top: -1px;
+    left: 175%;
+    border-radius: 0px 0px 0px 0px;
+    height: 36px;
+    width: 35%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #ffc107;
+	color: #fff;}
+body {
+    background: #efefef;
+}
+
+@-webkit-keyframes zoolen{
+	from {transform:scale(0.78);}
+	to {transform:scale(1);}
+}
+@-webkit-keyframes divao{
+	from {top: 40%;opacity: 0; }
+	to {top: 50%; opacity: 1;}
+}
+.giua{
+	/* position: absolute; */
+	width: 100%;
+	height: 43px;
+	color: white;
+	background-color: red;
+	font-size: 33px;
+	display: block;
+	margin-top: 77px;
+}
+.mauchu {
+    /* position: absolute; */
+    padding: 4px -23px;
+    margin-left: 75px;
+    /* display: inline-block; */
+    width: 965px;
+    height: 43px;
+    font-weight: bold;
+    }
+.mauchu ul{
+	list-style: none;
+	width: 100%;
+	height: 43px;
+	display: flex;
+	justify-content: space-around;
+}
+.mauchu ul li a{
+	
+width: 205px;
+	
+height: 42px;
+	
+text-align: center;
+	
+float: left;
+	
+font-size: 27px;
+	
+color: white;
+	
+text-decoration: none;
+}
+.mauchu ul li a:hover{
+	background-color: #cd2317;
+	border: 1px solid gray;
+
+	height: 42px;
+	display: block;
+}
+
+
+div.tren{
+	/* border-top: 4px solid brown; */
+	text-align: center;
+}
+div.vien{
+	margin-top: 21px;
+	border-bottom: 2px solid #E91E63;
+	height: 2px;
+	border-top: 3px solid #E91E63;
+}
+a.link{
+	    /* font-family: 'Francois One', sans-serif; */
+	    /* font-size: 21px; */
+	    /* position: relative; */
+	    /* display: inline-block; */
+	    /* top: -16px; */
+	    /* background-color: #fffffffa; */
+	    /* color: red; */
+	    /* font-weight: bold; */
+	    /* text-align: center; */
+	    /* padding: 0 10px; */
+	    /* text-decoration: none; */
+	    font-family: 'Francois One', sans-serif;
+	    font-size: 21px;
+	    position: relative;
+	    display: inline-block;
+	    top: -16px;
+	    background-color: white;
+	    color: red;
+	    font-weight: bold;
+	    text-align: center;
+	    padding: 0 10px;
+	    text-decoration: none;
+} 
+
+.ong-to {
+    width: 632px;
+    text-align: center;
+    margin: auto;
+}
+.layer1{
+	width: 145px;
+	height: 200px;
+	float: left;
+	margin-right: 13px;
+}
+.hinh-yeu img {
+    width: 124px;
+    height: 118px;
+    margin-top: 21px;
+    /* position: absolute; */
+    /* top: 2px; */
+    /* margin-left: 21px; */
+    margin-right: 13px;
+    /* float: left; */
+    /* border-radius: 50%; */
+    -moz-border-radius:50%;
+    -webkit-border-radius: 43%;
+    transition: 0.4s;
+}
+.hinh-yeu :hover{
+	position: relative;
+	bottom: 2px;
+	transition: 0.4s;
+	/* margin-bottom: 21px; */
+	/* background-color: black; */
+}
+
+.chu-yeu a {
+    width: 145px;
+    height: 28px;
+    text-align: center;
+	text-decoration: none;
+}
+.phancuoi {
+    width: 1324px;
+    height: 403px;
+    /* margin-top: 6px; */
+    /* position: absolute; */
+    /* display: flex; */
+    display: block;
+    margin: auto;
+}
+.mau{
+	margin-top: 40px;
+	position: relative;
+	width: 100%;
+	height: 356px;
+	background-image: url(../img/anhhinh.jpg);
+	/* background: red; */
+	margin-bottom: 1px;
+	display: block;
+	background-size:100%;
+}
+.logo img {
+    width: 89px;
+    height: 65px;
+    top: 0px;
+    left: 18px;
+}
+.tenwweb {
+    font-size: 24px;
+    position: absolute;
+    top: 0px;
+    left: 81px;
+    margin-top: 21px;
+    color: white;
+	font-family: 'Pacifico', cursive;
+}
+.gioithieu {
+    font-size: 18px;
+    padding: 26px 12px;
+    width: 225px;
+    height: 194px;
+    margin-left: 25px;
+    color: white;
+    float: left;
+}
+mau {
+    color: black;
+    font-weight: bold;
+}
+.Quicklink {
+    position: absolute;
+    top: 0px;
+    left: 264px;
+    width: 211px;
+    height: 356px;
+}
+.Quicklink h1 {
+    /* color: white; */
+    /* font-size: 25px; */
+    /* width: 130px; */
+    /* height: 37px; */
+    /* margin-top: 21px; */
+    /* margin-left: 46px; */
+    /* margin-bottom: 23px; */
+    /* top: 21px; */
+    /* position: relative; */
+    color: white;
+    font-size: 25px;
+    width: 130px;
+    height: 37px;
+    margin-top: 21px;
+    margin-left: 46px;
+    margin-bottom: 23px;
+}
+.Quicklink h2 a {
+    /* font-family: sans-serif; */
+    /* font-size: 21px; */
+    /* color: white; */
+    /* margin-top: 31px; */
+    /* margin-bottom: 26px; */
+    /* text-decoration: none; */
+    /* width: 193px; */
+    /* position: absolute; */
+    /* height: 43px; */
+    /* display: table-caption; */
+    font-family: sans-serif;
+    font-size: 21px;
+    color: white;
+    text-decoration: none;
+    width: 193px;
+    height: 43px;
+    display: block;
+}
+
+
+.Quicklink h3 a{
+    /* font-family: sans-serif; */
+    /* font-size: 21px; */
+    /* color: white; */
+    /* margin-top: 21px; */
+    /* margin-bottom: 21px; */
+    /* text-decoration: none; */
+    /* width: 193px; */
+    /* height: 43px; */
+    /* display: block; */
+    /* position: absolute; */
+    font-family: sans-serif;
+    font-size: 21px;
+    color: white;
+    text-decoration: none;
+    width: 193px;
+    height: 43px;
+    display: block;
+}
+.Quicklink h4 a{
+    /* font-family: sans-serif; */
+    /* font-size: 21px; */
+    /* color: white; */
+    /* margin-bottom: 21px; */
+    /* text-decoration: none; */
+    /* width: 193px; */
+    /* height: 25px; */
+    /* display: block; */
+    /* position: absolute; */
+    font-family: sans-serif;
+    font-size: 21px;
+    color: white;
+    margin-bottom: 21px;
+    text-decoration: none;
+    width: 193px;
+    height: 25px;
+    display: block;
+}
+.Quicklink h5 a {
+    /* font-family: sans-serif; */
+    /* font-size: 19px; */
+    /* color: white; */
+    /* margin-bottom: 21px; */
+    /* text-decoration: none; */
+    /* display: block; */
+    /* width: 193px; */
+    /* height: 22px; */
+    /* position: absolute; */
+    font-family: sans-serif;
+    font-size: 19px;
+    color: white;
+    margin-bottom: 21px;
+    text-decoration: none;
+    display: block;
+    width: 193px;
+    height: 22px;
+}
+.Quicklink h6 a{
+    /* font-family: sans-serif; */
+    /* font-size: 21px; */
+    /* color: white; */
+    /* text-decoration: none; */
+    /* position: absolute; */
+    /* width: 193px; */
+    /* height: 22px; */
+    /* right: 55px; */
+    font-family: sans-serif;
+    font-size: 21px;
+    color: white;
+    text-decoration: none;
+}
+.boclai{
+	
+/* margin-left: 21px; */
+	
+/* text-align: center; */
+	
+/* display: flex; */
+	
+/* flex-direction: column; */
+	
+/* width: 252px; */
+	
+/* height: 386px; */
+	
+/* display: block; */
+	
+/* position: relative; */
+	
+padding-bottom: -19px;
+	
+/* margin-bottom: -63px; */
+	
+margin-left: 21px;
+	
+text-align: center;
+	
+display: flex;
+	
+flex-direction: column;
+}
+.Tagcloud {
+    width: 202px;
+    height: 310px;
+    position: relative;
+    margin-left: 532px;
+}
+.Tagcloud h1  {
+    color: white;
+    /* height: 310px; */
+    /* width: 202px; */
+    position: absolute;
+    top: -49px;
+    left: 32px;
+    font-size: 30px;
+}
+.Tagcloud h2 a {
+    margin-bottom: 21px;
+    font-size: 25px;
+    font-size: 21px;
+    background: #eee;
+    color: #414141;
+    padding: 7px 2px;
+    transition:0.5s;
+    width: 75px;
+    height: 34px;
+	display: block;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+.Tagcloud h2 a:hover{
+	background:orange;
+	color: white;
+}
+.Tagcloud h3 a {
+    font-size: 21px;
+    background: #eee;
+    margin-top: 57px;
+    /* margin-bottom: 21px; */
+    color: #414141;
+    padding: 7px 2px;
+    transition:0.5s;
+    width: 75px;
+    height: 34px;
+    position: absolute;
+    display: -webkit-inline-box;
+    box-sizing:border-box;
+    text-decoration: none;
+    top: 1px;
+    right: 72px;
+}
+.Tagcloud h3 a:hover{
+	background:orange;
+	color: white;
+}
+
+.Tagcloud h4 a {
+    font-size: 21px;
+    background: #eee;
+    color: #414141;
+    padding: 7px 2px;
+    transition:0.5s;
+    margin-top: 31px;
+    margin-bottom: 31px;
+    width: 75px;
+    height: 34px;
+    position: absolute;
+    top: 87px;
+    right: 73px;
+    box-sizing:border-box;
+    text-decoration: none;
+    display: -webkit-inline-box;
+}
+.Tagcloud h4 a:hover{
+	background:orange;
+	color: white;
+}
+
+.Tagcloud h5 a {
+    font-size: 21px;
+    background: #eee;
+    color: #414141;
+    padding: 7px 2px;
+    transition:0.5s;
+    width: 75px;
+    height: 34px;
+    box-sizing:border-box;
+    text-decoration: none;
+    position: absolute;
+    top: 173px;
+    left: 74px;
+    display: -webkit-inline-box;
+}
+.Tagcloud h5 a:hover{
+	background:orange;
+	color: white;
+}
+.tom {
+    /* position: absolute; */
+    text-align: center;
+    /* margin-left: 60px; */
+    /* margin-top: 29px; */
+    width: 222px;
+    height: 369px;
+    display: flex;
+    position: relative;
+
+    flex-direction: column;
+}
+.sociallink h5 a {
+    font-size: 21px;
+    width: 50px;
+    height: 50px;
+    display: table-row;
+    text-decoration: none;
+    color: black;
+}
+.be{
+	margin-right: 21px;
+	color: #3c3a38;
+}
+.sociallink h4 a {
+    font-size: 21px;
+    margin-bottom: 21px;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    display: table-row;
+
+    color: black;
+}
+
+.sociallink h3 a {
+    /* font-size: 21px; */
+    /* margin-bottom: 21px; */
+    /* width: 50px; */
+    /* height: 50px; */
+    /* display: table-row; */
+    /* text-decoration: none; */
+    /* color: black; */
+    /* display: table-header-group; */
+    font-size: 21px;
+    margin-bottom: 21px;
+    width: 50px;
+    height: 50px;
+    display: table-row;
+    text-decoration: none;
+    color: black;
+}
+
+.sociallink h2 a {
+    /* font-size: 24px; */
+    /* margin-top: 21px; */
+    /* margin-bottom: 21px; */
+    /* text-decoration: none; */
+    /* width: 50px; */
+    /* height: 50px; */
+    /* color: black; */
+    font-size: 24px;
+    margin-bottom: 21px;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    display: table-row;
+    color: black;
+}
+
+.sociallink h1 {
+    color: white;
+}
+
+.sociallink {
+    width: 202px;
+    height: 310px;
+    position: relative;
+    margin-left: 872px;
+    top: -359px;
+}
+.tat{
+	  /* position: absolute; */
+	  /* text-align: center; */
+	  /* margin-left: 1px; */
+	  /* margin-top: -1px; */
+	  /* margin-bottom: 22px; */
+	  /* width: 166px; */
+	  /* height: 333px; */
+	  /* display: flex; */
+	  /* flex-direction: column; */
+	  position: absolute;
+	  margin-left: 1px;
+	  margin-top: 60px;
+	  width: 162px;
+	  height: 200px;
+	  display: flex;
+	  flex-direction: column;
+}
